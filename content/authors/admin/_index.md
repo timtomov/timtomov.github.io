@@ -42,10 +42,13 @@ profiles:
     url: https://www.linkedin.com/in/timtomov/
   - icon: brands/twitter
     url: https://x.com/timtomov
+  - icon: academicons/archive
+    url: https://www.cs.cit.tum.de/daml/team/tim-tomov/
 
 interests:
   - Uncertainty Quantification
   - Reliability
+  - Information Theory
 
 education:
   - area: PhD in Machine Learning
@@ -134,8 +137,9 @@ languages:
 
 ---
 
-I am a PhD student in the Data Analytics and Machine Learning (DAML) group at the Technical University of Munich, where I work with Prof. Stephan Günnemann. My research centers on uncertainty quantification in machine learning—essentially, I'm trying to figure out when models know that they don't know something. I am particularly interested in an information-theoretic view of machine learning, which provides principled foundations for understanding uncertainty and knowledge in AI systems.
+I just started as a PhD student in the Data Analytics and Machine Learning (DAML) group at the Technical University of Munich, where I work under the supervision of Prof. Stephan Günnemann. My research focuses on uncertainty quantification in machine learning—essentially, I'm trying to figure out when models know that they don't know something. I am particularly interested in an information-theoretic view of machine learning, which provides principled foundations for understanding uncertainty and knowledge in AI systems.
 
-Currently, I'm exploring this question in the context of large language models (LLMs). I'm fascinated by the challenge of understanding when these models are truly confident versus when they're just producing plausible-sounding text. My goal is to develop both theoretical frameworks and practical systems that can reliably detect and communicate uncertainty, making AI systems more trustworthy and safer to deploy in real-world applications.
+Currently, I'm looking into this in the context of large language models (LLMs). Language brings a whole set of new challenges and I think there is a lot of opportunity to do groundwork and establish definitions. I am always happy to chat about these things so feel to reach out.
 
-I completed both my Master's and Bachelor's degrees at TUM, where I built a strong foundation in machine learning and deep learning. Beyond research, I'm driven by the vision of creating AI systems that don't just perform well on average, but that also know their limits and can say "I don't know" when appropriate.
+
+
