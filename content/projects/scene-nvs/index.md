@@ -1,6 +1,6 @@
 ---
-title: 'Scene Novel View Synthesis'
-summary: 'Neural rendering project for novel view synthesis using deep learning techniques'
+title: 'Novel View Synthesis for Scenes in the Wild'
+summary: 'We propose a novel combination of local as well as global conditioning modules with which we finetune Stable Diffusion on the ScanNet++ dataset.'
 tags:
   - Computer Vision
   - Deep Learning
@@ -11,7 +11,7 @@ external_link: 'https://github.com/TimTomov/scene_nvs'
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
 image:
-  caption: 'Scene Novel View Synthesis'
+  caption: 'Novel View Synthesis for Scenes in the Wild'
   focal_point: 'Smart'
   preview_only: false
 
@@ -29,18 +29,11 @@ links:
 slides: ""
 ---
 
-A project exploring novel view synthesis techniques for 3D scene reconstruction and rendering. This work investigates methods for generating new viewpoints of scenes from limited input views using neural rendering approaches.
+We propose a novel combination of local as well as global conditioning modules with which we finetune Stable Diffusion on the ScanNet++ dataset.
 
-## Key Features
+Check out:
+- [Poster](https://github.com/timtomov/scene_nvs/blob/main/assets/poster.pdf)
+- [Report](https://github.com/timtomov/scene_nvs/blob/main/assets/report.pdf)
+- [GitHub repository](https://github.com/TimAlexander/scene_nvs)
 
-- Novel view synthesis using neural networks
-- 3D scene understanding and reconstruction
-- Deep learning-based rendering techniques
-
-## Technologies
-
-- Python
-- PyTorch
-- Computer Vision libraries
-
-Check out the [GitHub repository](https://github.com/TimAlexander/scene_nvs) for more details.
+for more details.
