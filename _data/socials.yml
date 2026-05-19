@@ -1,0 +1,10 @@
+# This file contains the social media links and usernames displayed on the site.
+email: tim.tomov@tum.de
+github_username: timtomov
+linkedin_username: timtomov
+google_scholar:
+  title: Google Scholar
+  url: https://scholar.google.com/citations?view_op=search_authors&mauthors=Tim+Tomov
+  logo: ai ai-google-scholar
+x_username: timtomov
+work_url: https://www.cs.cit.tum.de/daml/team/tim-tomov/

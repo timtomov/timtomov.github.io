@@ -1,0 +1,67 @@
+@article{tomov2026calibration,
+  title = {Task-Aware Calibration: Provably Optimal Decoding in {LLM}s},
+  author = {Tomov, Tim and Fuchsgruber, Dominik and Verma, Rajeev and G{\"u}nnemann, Stephan},
+  journal = {arXiv preprint arXiv:2605.10202},
+  year = {2026},
+  abstract = {LLM decoding often relies on the model's predictive distribution to generate an output. Consequently, misalignment with respect to the true generating distribution leads to suboptimal decisions in practice. While a natural solution is to calibrate the model's output distribution, for LLMs, this is ill-posed at the combinatorially vast level of free-form language. We address this by building on the insight that in many tasks, these free-form outputs can be interpreted in a semantically meaningful latent structure, for example, discrete class labels, integers, or sets. We introduce task calibration as a paradigm to calibrate the model's predictive distribution in the task-induced latent space. We apply a decision-theoretic result to show that Minimum Bayes Risk (MBR) decoding on the task-calibrated latent distribution is the optimal decoding strategy on latent model beliefs. Empirically, it consistently improves generation quality across different tasks and baselines. We also introduce Task Calibration Error (TCE), an application-aware calibration metric that quantifies the excess loss due to miscalibration. Our work demonstrates that task calibration enables more reliable model decisions across various tasks and applications.},
+  arxiv = {2605.10202},
+  url = {https://arxiv.org/abs/2605.10202},
+  selected = {true},
+  bibtex_show = {true},
+  abbr = {arXiv}
+}
+
+@inproceedings{tomov2026task,
+  title = {Task-Awareness Improves {LLM} Generations and Uncertainty},
+  author = {Tomov, Tim and Fuchsgruber, Dominik and G{\"u}nnemann, Stephan},
+  booktitle = {International Conference on Machine Learning (ICML)},
+  year = {2026},
+  journal = {arXiv preprint arXiv:2601.21500},
+  abstract = {In many applications of LLMs, natural language responses often have an underlying structure such as representing discrete labels, numerical values, or graphs. Yet, existing decoding and uncertainty estimation methods operate only in language space and largely disregard structural information. We address this by modeling LLM outputs directly in a task-dependent latent structure. By equipping this structure with a dissimilarity measure, we can compute Bayes-optimal responses. These are not selected from sampled generations but are newly synthesized by combining individual responses in the latent space. Across different tasks, Bayes-optimal responses consistently outperform standard decoding methods like beam search. Moreover, quantifying uncertainty via the induced Bayesian risk captures variations in terms of the latent structure and improves alignment with output quality and correctness. Our decision-theoretic framework is applicable to any problem that admits a latent response structure and enables reliable task-aware LLM predictions.},
+  arxiv = {2601.21500},
+  url = {https://icml.cc/virtual/2026/poster/63120},
+  selected = {true},
+  bibtex_show = {true},
+  abbr = {ICML}
+}
+
+@article{tomov2025illusion,
+  title = {The Illusion of Certainty: Uncertainty Quantification for {LLM}s Fails Under Ambiguity},
+  author = {Tomov, Tim and Fuchsgruber, Dominik and Wollschl{\"a}ger, Tom and G{\"u}nnemann, Stephan},
+  journal = {arXiv preprint arXiv:2511.04418},
+  year = {2025},
+  abstract = {Accurate uncertainty quantification (UQ) in Large Language Models (LLMs) is critical for trustworthy deployment. While real-world language is inherently ambiguous, reflecting aleatoric uncertainty, existing UQ methods are typically benchmarked against tasks with no ambiguity. In this work, we demonstrate that while current uncertainty estimators perform well under the restrictive assumption of no ambiguity, they degrade to close-to-random performance on ambiguous data. To this end, we introduce MAQA* and AmbigQA*, the first ambiguous question-answering (QA) datasets equipped with ground-truth answer distributions estimated from factual co-occurrence. We find this performance deterioration to be consistent across different estimation paradigms: using the predictive distribution itself, internal representations throughout the model, and an ensemble of models. We show that this phenomenon can be theoretically explained, revealing that predictive-distribution and ensemble-based estimators are fundamentally limited under ambiguity. Overall, our study reveals a key shortcoming of current UQ methods for LLMs and motivates a rethinking of current modeling paradigms.},
+  arxiv = {2511.04418},
+  url = {https://arxiv.org/abs/2511.04418},
+  selected = {true},
+  bibtex_show = {true},
+  abbr = {arXiv}
+}
+
+@inproceedings{tomov2025entropy,
+  title = {Entropy Is Not Enough: Uncertainty Quantification for {LLM}s Fails Under Aleatoric Uncertainty},
+  author = {Tomov, Tim and Fuchsgruber, Dominik and Wollschl{\"a}ger, Tom and G{\"u}nnemann, Stephan},
+  booktitle = {NeurIPS 2025 Workshop on Structured Probabilistic Inference {\&} Generative Modeling},
+  year = {2025},
+  abstract = {Accurate uncertainty quantification (UQ) in Large Language Models (LLMs) is critical for trustworthy deployment. While real-world language is inherently ambiguous, existing UQ methods implicitly assume scenarios with no ambiguity. Therefore, a natural question is how they work under ambiguity. In this work, we demonstrate that current uncertainty estimators only perform well under the restrictive assumption of no aleatoric uncertainty and degrade significantly on ambiguous data. Specifically, we provide theoretical insights into this limitation and introduce two question-answering (QA) datasets with ground-truth answer probabilities. Using these datasets, we show that current uncertainty estimators perform close to random under real-world ambiguity. This highlights a fundamental limitation in existing practices and emphasizes the urgent need for new uncertainty quantification approaches that account for the ambiguity in language modeling.},
+  url = {https://openreview.net/forum?id=5dxI22B5kx},
+  selected = {true},
+  bibtex_show = {true},
+  abbr = {NeurIPS}
+}
+
+@article{peeken2024development,
+  title = {Development and Benchmarking of a Deep Learning-Based {MRI}-Guided Gross Tumor Segmentation Algorithm for Radiomics Analyses in Extremity Soft Tissue Sarcomas},
+  author = {Peeken, Jan C. and Etzel, Lucas and Tomov, Tim and M{\"u}nch, Stefan and Sch{\"u}ttrumpf, Lars and Shaktour, Julius H. and Kiechle, Johannes and Knebel, Carolin and Schaub, Stephanie K. and Mayr, Nina A. and others},
+  journal = {Radiotherapy and Oncology},
+  volume = {197},
+  pages = {110338},
+  year = {2024},
+  publisher = {Elsevier},
+  abstract = {Background Volume of interest (VOI) segmentation is a crucial step for Radiomics analyses and radiotherapy (RT) treatment planning. Because it can be time-consuming and subject to inter-observer variability, we developed and tested a Deep Learning-based automatic segmentation (DLBAS) algorithm to reproducibly predict the primary gross tumor as VOI for Radiomics analyses in extremity soft tissue sarcomas (STS). Methods A DLBAS algorithm was trained on a cohort of 157 patients and externally tested on an independent cohort of 87 patients using contrast-enhanced MRI. Manual tumor delineations by a radiation oncologist served as ground truths (GTs). A benchmark study with 20 cases from the test cohort compared the DLBAS predictions against manual VOI segmentations of two residents (ERs) and clinical delineations of two radiation oncologists (ROs). The ROs rated DLBAS predictions regarding their direct applicability. Results The DLBAS achieved a median dice similarity coefficient (DSC) of 0.88 against the GTs in the entire test cohort (interquartile range (IQR): 0.11) and a median DSC of 0.89 (IQR 0.07) and 0.82 (IQR 0.10) in comparison to ERs and ROs, respectively. Radiomics feature stability was high with a median intraclass correlation coefficient of 0.97, 0.95 and 0.94 for GTs, ERs, and ROs, respectively. DLBAS predictions were deemed clinically suitable by the two ROs in 35\% and 20\% of cases, respectively. Conclusion The results demonstrate that the DLBAS algorithm provides reproducible VOI predictions for radiomics feature extraction. Variability remains regarding direct clinical applicability of predictions for RT treatment planning.},
+  doi = {10.1016/j.radonc.2024.110338},
+  url = {https://www.sciencedirect.com/science/article/pii/S016781402400608X},
+  selected = {false},
+  bibtex_show = {true},
+  abbr = {Radiother Oncol}
+}
