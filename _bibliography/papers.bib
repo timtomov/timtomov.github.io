@@ -1,3 +1,20 @@
+@inproceedings{tang2026clarification,
+  title = {What Is a Clarification? Estimating Model-Dependent Input Ambiguity},
+  author = {Tang, Jingqin and Tomov, Tim and Schmidt, Sebastian and Fuchsgruber, Dominik and G{\"u}nnemann, Stephan},
+  booktitle = {NeurIPS 2026 Workshop on Linguistic Principles for Foundation Models (LP4FM)},
+  year = {2026},
+  abstract = {Ambiguous inputs can admit multiple interpretations, each potentially yielding a different answer. Existing work largely treats this ambiguity as a property of the input, yet for a particular language model, only some alternatives may be known and answerable. We therefore distinguish world ambiguity, capturing all alternatives admitted by an input, from model ambiguity, capturing those accessible to the responding model. To characterize these alternatives, we formalize natural-language clarifications through three desiderata: uniqueness, faithfulness, and answer equivalence. We show that these desiderata induce a one-to-one correspondence between valid answers and equivalence classes of clarifications, implying that any interpretation can be represented either by its answer or by the clarifications that uniquely express it. We leverage this correspondence to introduce CircleClar, a black-box method that estimates the set of answers available to a model by checking consistency along an answer--clarification--answer cycle. Across open-domain QA and executable Text-to-SQL, CircleClar achieves strong recovery of these answer sets. In QA, the recovered support yields the strongest overall performance in model-dependent ambiguity detection and enables effective selection among answering, clarifying, and abstaining. Together, these results demonstrate the practical value of a model-dependent view of ambiguity and its characterization through an answer-clarification correspondence.},
+  url = {https://gwwgwd.github.io/CircleClar/},
+  website = {https://gwwgwd.github.io/CircleClar/},
+  pdf = {https://gwwgwd.github.io/CircleClar/assets/paper/circleclar.pdf},
+  code = {https://github.com/GWWGWD/CircleClar},
+  award = {Outstanding Paper Award and Oral at the LP4FM Workshop @ NeurIPS 2026.},
+  award_name = {Outstanding Paper},
+  selected = {true},
+  bibtex_show = {true},
+  abbr = {NeurIPS}
+}
+
 @article{tomov2026calibration,
   title = {Task-Aware Calibration: Provably Optimal Decoding in {LLM}s},
   author = {Tomov, Tim and Fuchsgruber, Dominik and Verma, Rajeev and G{\"u}nnemann, Stephan},
