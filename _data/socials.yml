@@ -1,5 +1,6 @@
 # This file contains the social media links and usernames displayed on the site.
 email: tim.tomov@tum.de
+cv_pdf: /assets/pdf/TimTomov_CV.pdf # path to your CV PDF file
 github_username: timtomov
 linkedin_username: timtomov
 google_scholar:
